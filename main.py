@@ -13,3 +13,7 @@ def greet():
 @app.get("/testing")
 def branche():
     return "in testing branch"
+
+@app.get("/shubh")
+def singer():
+    return "punjabi"
