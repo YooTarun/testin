@@ -9,3 +9,7 @@ def read_root():
 @app.get("/greet")
 def greet():
     return "welcome to git"
+
+@app.get("/testing")
+def branche():
+    return "in testing branch"
